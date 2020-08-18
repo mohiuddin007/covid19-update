@@ -1,8 +1,9 @@
 body{
-    /* background-image: linear-gradient(120deg, rgb(63, 25, 25), rgb(61, 51, 45)); */
-    color: rgb(7, 5, 3);
+    color: whitesmoke;
     font-style: unset;
-    background-color: rgb(160, 147, 160);
+    background-image: url(images/020-corona-virus-dpd.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #btn{
@@ -14,8 +15,6 @@ body{
 }
 
 .shadow{
-    box-shadow: 2px 4px 3px ghostwhite;
-}
-.shadow:hover{
-    transform-box: 3px;
+    box-shadow: 5px 5px 8px rgb(183, 183, 255);
+    /* text-align: center; */
 }
