@@ -7,7 +7,6 @@ function reload() {
     allInfo(data);
 })
 }
-
 function allInfo(data) {
     document.getElementById('newConfirmed').innerText = data.Global.NewConfirmed;
     document.getElementById('newDeath').innerText = data.Global.NewDeaths;
